@@ -29,4 +29,10 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+
+  button{
+  display: block;
+  margin: 0 auto;
+
+}
 }
