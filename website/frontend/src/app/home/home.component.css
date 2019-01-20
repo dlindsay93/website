@@ -15,7 +15,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../../w3images/img1.jpg");
+  background-image: ;
   min-height: 100%;
   line-height: 1.8;
 }

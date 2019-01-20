@@ -10,7 +10,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { AssetsComponent } from './assets/assets.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { AssetsComponent } from './assets/assets.component';
     ContactComponent,
     HomeComponent,
     FooterComponent,
-    AssetsComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,

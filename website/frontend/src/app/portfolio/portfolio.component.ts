@@ -37,7 +37,7 @@ export class PortfolioComponent implements OnInit {
   onUpload(){
     const fd = new FormData();
     fd.append('image', this.selectedFile, this.selectedFile.name);
-    this.http.post("../assets", fd)
+    this.http.post("https://firebasestorage.googleapis.com/v0/b/angular7-website.appspot.com/o/website", fd)
       .subscribe(res => {
         console.log(res);
       });
